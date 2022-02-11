@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644552545922' stop='1644552545924'>
+    <name>Event Listeners</name>
+    <title>Event Listeners</title>
+    <test-cases>
+        <test-case start='1644552545923' status='pending' stop='1644552545923'>
+            <name>should listen on network events</name>
+            <title>should listen on network events</title>
+            <labels/>
+            <parameters>
+                <parameter kind='argument' name='browserVersion' value='98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

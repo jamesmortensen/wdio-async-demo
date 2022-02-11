@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644552546608' stop='1644552552850'>
+    <name>Menu Button Tests</name>
+    <title>Menu Button Tests</title>
+    <test-cases>
+        <test-case start='1644552546609' status='passed' stop='1644552552846'>
+            <name>should verify image is present</name>
+            <title>should verify image is present</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='browserVersion' value='98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

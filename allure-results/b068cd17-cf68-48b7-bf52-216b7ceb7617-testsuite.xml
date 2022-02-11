@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644552531992' stop='1644552547926'>
+    <name>Tests on waiting for an element to appear - 1</name>
+    <title>Tests on waiting for an element to appear - 1</title>
+    <test-cases>
+        <test-case start='1644552532203' status='passed' stop='1644552547924'>
+            <name>should wait for the element to appear</name>
+            <title>should wait for the element to appear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='browserVersion' value='98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            // It's normal to see the wdio.*.conf.js loaded twice. See
+            // https://github.com/webdriverio/webdriverio/issues/1500 
+            // for explanation.
+            "type": "node",
+            "request": "launch",
+            "name": "Debug WebdriverIO Tests Using Current Config",
+            "port": 9229,
+            "timeout": 1500000,
+            "program": "${workspaceRoot}/node_modules/.bin/wdio",
+            "cwd": "${workspaceRoot}",
+            "console": "internalConsole",
+            "env": {},
+            "args": [
+                "${file}",
+                "--mochaOpts.timeout",
+                "1500000"
+                //"--spec",
+                //""
+                //""
+            ]
+        },
+        {
+            // It's normal to see the wdio.*.conf.js loaded twice. See
+            // https://github.com/webdriverio/webdriverio/issues/1500 
+            // for explanation.
+            "type": "node",
+            "request": "launch",
+            "name": "Debug WebdriverIO Tests Using _wdio.local.conf.js",
+            "port": 9229,
+            "timeout": 1500000,
+            "program": "${workspaceRoot}/node_modules/.bin/wdio",
+            "cwd": "${workspaceRoot}",
+            "console": "internalConsole",
+            "env": {},
+            "args": [
+                "_wdio.local.conf.js",
+                "--mochaOpts.timeout",
+                "1500000",
+                "--spec",
+                "${file}"
+            ]
+        }
+    ]
+}

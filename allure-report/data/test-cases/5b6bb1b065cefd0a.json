@@ -1,0 +1,89 @@
+{
+  "uid" : "5b6bb1b065cefd0a",
+  "name" : "should not display the popup on subsequent pageloads",
+  "fullName" : "Entry Ad Tests.should not display the popup on subsequent pageloads",
+  "historyId" : "215c47df089183d4393e553b2c0244e8",
+  "time" : {
+    "start" : 1644552536654,
+    "stop" : 1644552542052,
+    "duration" : 5398
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected true to be false      \n                      actual expected\n                      \n                      truefalse\n                      ",
+  "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (/Users/james/Dev/wdio-async-demo/test-async/specs/entry.ad.e2e.js:42:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected true to be false      \n                      actual expected\n                      \n                      truefalse\n                      ",
+    "statusTrace" : "AssertionError: expected true to be false\n                    at Context.<anonymous> (/Users/james/Dev/wdio-async-demo/test-async/specs/entry.ad.e2e.js:42:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81cc6a0bbeefc5d4",
+      "name" : "Execution video",
+      "source" : "81cc6a0bbeefc5d4.mp4",
+      "type" : "video/mp4",
+      "size" : 28080
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Entry Ad Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Entry Ad Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not display the popup on subsequent pageloads"
+  }, {
+    "name" : "package",
+    "value" : "Entry Ad Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  }, {
+    "name" : "browserVersion",
+    "value" : "98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b6bb1b065cefd0a.json",
+  "parameterValues" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+}

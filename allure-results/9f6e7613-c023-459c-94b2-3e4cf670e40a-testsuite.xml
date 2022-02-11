@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644552550982' stop='1644552551263'>
+    <name>Navigation tests</name>
+    <title>Navigation tests</title>
+    <test-cases>
+        <test-case start='1644552551094' status='passed' stop='1644552551161'>
+            <name>should login, land on secure page, then go to floating_menus pages</name>
+            <title>should login, land on secure page, then go to floating_menus pages</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-8'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='browserVersion' value='98.0.4758.80'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

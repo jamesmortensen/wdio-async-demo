@@ -1,0 +1,65 @@
+{
+  "uid" : "aea15fbc63dda009",
+  "name" : "should show 34 when we enter 34",
+  "fullName" : "Test inputs page.should show 34 when we enter 34",
+  "historyId" : "9820a714419aed85e52313016bcdc98f",
+  "time" : {
+    "start" : 1644552549235,
+    "stop" : 1644552553505,
+    "duration" : 4270
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Test inputs page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test inputs page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show 34 when we enter 34"
+  }, {
+    "name" : "package",
+    "value" : "Test inputs page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  }, {
+    "name" : "browserVersion",
+    "value" : "98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aea15fbc63dda009.json",
+  "parameterValues" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+}

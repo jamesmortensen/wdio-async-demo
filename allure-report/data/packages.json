@@ -1,0 +1,279 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Menu Button Tests",
+    "children" : [ {
+      "name" : "should count 5 buttons",
+      "uid" : "40dfd174bfd5963b",
+      "parentUid" : "115e3e8a2905414db70b975dcbb75a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552532132,
+        "stop" : 1644552542185,
+        "duration" : 10053
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "should verify image is present",
+      "uid" : "cfedfe6c42a96d5d",
+      "parentUid" : "115e3e8a2905414db70b975dcbb75a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552546609,
+        "stop" : 1644552552846,
+        "duration" : 6237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "115e3e8a2905414db70b975dcbb75a0d"
+  }, {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "32e30eff96345af",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552532167,
+        "stop" : 1644552540701,
+        "duration" : 8534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  }, {
+    "name" : "Entry Ad Tests",
+    "children" : [ {
+      "name" : "should display the popup on the first pageload",
+      "uid" : "defdf237da38f9bb",
+      "parentUid" : "688f7a534398454f3848f736e624f972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552532203,
+        "stop" : 1644552536646,
+        "duration" : 4443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "should not display the popup on subsequent pageloads",
+      "uid" : "5b6bb1b065cefd0a",
+      "parentUid" : "688f7a534398454f3848f736e624f972",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644552536654,
+        "stop" : 1644552542052,
+        "duration" : 5398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "688f7a534398454f3848f736e624f972"
+  }, {
+    "name" : "Tests on waiting for an element to appear - 1",
+    "children" : [ {
+      "name" : "should wait for the element to appear",
+      "uid" : "18127756bb8c6cf9",
+      "parentUid" : "a4084670c7df16735df65eb8485e49f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552532203,
+        "stop" : 1644552547924,
+        "duration" : 15721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "a4084670c7df16735df65eb8485e49f6"
+  }, {
+    "name" : "Tests on waiting for an element to appear - 2",
+    "children" : [ {
+      "name" : "should wait for the element to appear",
+      "uid" : "29e0cb5d3114ec19",
+      "parentUid" : "3f37ea3959034cef80f833f1f1e24715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552532600,
+        "stop" : 1644552546870,
+        "duration" : 14270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "3f37ea3959034cef80f833f1f1e24715"
+  }, {
+    "name" : "Event Listeners",
+    "children" : [ {
+      "name" : "should listen on network events",
+      "uid" : "60d5ec0c9f8c6503",
+      "parentUid" : "2a6ce8ee0a8172a2a89435ac9002b54f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1644552545923,
+        "stop" : 1644552545923,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "98.0.4758.80" ]
+    } ],
+    "uid" : "2a6ce8ee0a8172a2a89435ac9002b54f"
+  }, {
+    "name" : "Test inputs page",
+    "children" : [ {
+      "name" : "should show 34 when we enter 34",
+      "uid" : "aea15fbc63dda009",
+      "parentUid" : "4da65155a7b2455be150cabd68017281",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552549235,
+        "stop" : 1644552553505,
+        "duration" : 4270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "should show 56 when we enter 5ty6",
+      "uid" : "cfff232e9f5f8f3f",
+      "parentUid" : "4da65155a7b2455be150cabd68017281",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552553509,
+        "stop" : 1644552554661,
+        "duration" : 1152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "should allow decimals",
+      "uid" : "3a629a61ea21dc26",
+      "parentUid" : "4da65155a7b2455be150cabd68017281",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552554666,
+        "stop" : 1644552555796,
+        "duration" : 1130
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    }, {
+      "name" : "should not allow any other special characters",
+      "uid" : "3ac28e71afae3ace",
+      "parentUid" : "4da65155a7b2455be150cabd68017281",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552555805,
+        "stop" : 1644552556915,
+        "duration" : 1110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "4da65155a7b2455be150cabd68017281"
+  }, {
+    "name" : "Navigation tests",
+    "children" : [ {
+      "name" : "should login, land on secure page, then go to floating_menus pages",
+      "uid" : "a31cc32c38c6f57d",
+      "parentUid" : "7c78b1a200fde7329a121d0cf86bd75c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552552187,
+        "stop" : 1644552552224,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "7c78b1a200fde7329a121d0cf86bd75c"
+  }, {
+    "name" : "Typos page",
+    "children" : [ {
+      "name" : "should load the page and print a sentence",
+      "uid" : "40a2cde04905f1a9",
+      "parentUid" : "6716ffc9e97499068f572bc98baab8c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644552560129,
+        "stop" : 1644552563814,
+        "duration" : 3685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    } ],
+    "uid" : "6716ffc9e97499068f572bc98baab8c5"
+  } ],
+  "name" : "packages"
+}

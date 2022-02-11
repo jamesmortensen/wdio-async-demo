@@ -1,0 +1,65 @@
+{
+  "uid" : "40a2cde04905f1a9",
+  "name" : "should load the page and print a sentence",
+  "fullName" : "Typos page.should load the page and print a sentence",
+  "historyId" : "e89bdcc84ff9c54c960dda31ec924525",
+  "time" : {
+    "start" : 1644552560129,
+    "stop" : 1644552563814,
+    "duration" : 3685
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-11"
+  }, {
+    "name" : "suite",
+    "value" : "Typos page"
+  }, {
+    "name" : "testClass",
+    "value" : "Typos page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should load the page and print a sentence"
+  }, {
+    "name" : "package",
+    "value" : "Typos page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  }, {
+    "name" : "browserVersion",
+    "value" : "98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40a2cde04905f1a9.json",
+  "parameterValues" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+}

@@ -1,0 +1,141 @@
+[ {
+  "uid" : "18127756bb8c6cf9",
+  "name" : "should wait for the element to appear",
+  "time" : {
+    "start" : 1644552532203,
+    "stop" : 1644552547924,
+    "duration" : 15721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32e30eff96345af",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1644552532167,
+    "stop" : 1644552540701,
+    "duration" : 8534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a31cc32c38c6f57d",
+  "name" : "should login, land on secure page, then go to floating_menus pages",
+  "time" : {
+    "start" : 1644552552187,
+    "stop" : 1644552552224,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60d5ec0c9f8c6503",
+  "name" : "should listen on network events",
+  "time" : {
+    "start" : 1644552545923,
+    "stop" : 1644552545923,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "40dfd174bfd5963b",
+  "name" : "should count 5 buttons",
+  "time" : {
+    "start" : 1644552532132,
+    "stop" : 1644552542185,
+    "duration" : 10053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfedfe6c42a96d5d",
+  "name" : "should verify image is present",
+  "time" : {
+    "start" : 1644552546609,
+    "stop" : 1644552552846,
+    "duration" : 6237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40a2cde04905f1a9",
+  "name" : "should load the page and print a sentence",
+  "time" : {
+    "start" : 1644552560129,
+    "stop" : 1644552563814,
+    "duration" : 3685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfff232e9f5f8f3f",
+  "name" : "should show 56 when we enter 5ty6",
+  "time" : {
+    "start" : 1644552553509,
+    "stop" : 1644552554661,
+    "duration" : 1152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b6bb1b065cefd0a",
+  "name" : "should not display the popup on subsequent pageloads",
+  "time" : {
+    "start" : 1644552536654,
+    "stop" : 1644552542052,
+    "duration" : 5398
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "29e0cb5d3114ec19",
+  "name" : "should wait for the element to appear",
+  "time" : {
+    "start" : 1644552532600,
+    "stop" : 1644552546870,
+    "duration" : 14270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a629a61ea21dc26",
+  "name" : "should allow decimals",
+  "time" : {
+    "start" : 1644552554666,
+    "stop" : 1644552555796,
+    "duration" : 1130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "defdf237da38f9bb",
+  "name" : "should display the popup on the first pageload",
+  "time" : {
+    "start" : 1644552532203,
+    "stop" : 1644552536646,
+    "duration" : 4443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aea15fbc63dda009",
+  "name" : "should show 34 when we enter 34",
+  "time" : {
+    "start" : 1644552549235,
+    "stop" : 1644552553505,
+    "duration" : 4270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ac28e71afae3ace",
+  "name" : "should not allow any other special characters",
+  "time" : {
+    "start" : 1644552555805,
+    "stop" : 1644552556915,
+    "duration" : 1110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

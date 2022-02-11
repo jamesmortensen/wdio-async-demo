@@ -1,0 +1,65 @@
+{
+  "uid" : "3a629a61ea21dc26",
+  "name" : "should allow decimals",
+  "fullName" : "Test inputs page.should allow decimals",
+  "historyId" : "2fc97a36f0730d346fb7894905806cbb",
+  "time" : {
+    "start" : 1644552554666,
+    "stop" : 1644552555796,
+    "duration" : 1130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-7"
+  }, {
+    "name" : "suite",
+    "value" : "Test inputs page"
+  }, {
+    "name" : "testClass",
+    "value" : "Test inputs page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should allow decimals"
+  }, {
+    "name" : "package",
+    "value" : "Test inputs page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  }, {
+    "name" : "browserVersion",
+    "value" : "98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a629a61ea21dc26.json",
+  "parameterValues" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+}

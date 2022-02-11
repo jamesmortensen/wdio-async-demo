@@ -1,0 +1,65 @@
+{
+  "uid" : "40dfd174bfd5963b",
+  "name" : "should count 5 buttons",
+  "fullName" : "Menu Button Tests.should count 5 buttons",
+  "historyId" : "6c82e0799dcc5568a3b93fba0ddc3113",
+  "time" : {
+    "start" : 1644552532132,
+    "stop" : 1644552542185,
+    "duration" : 10053
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Menu Button Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Menu Button Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "should count 5 buttons"
+  }, {
+    "name" : "package",
+    "value" : "Menu Button Tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.80"
+  }, {
+    "name" : "browserVersion",
+    "value" : "98.0.4758.80"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40dfd174bfd5963b.json",
+  "parameterValues" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+}
