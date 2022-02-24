@@ -1,99 +1,15 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "should count 5 buttons",
-    "uid" : "40dfd174bfd5963b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552532132,
-      "stop" : 1644552542185,
-      "duration" : 10053
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should login with valid credentials",
-    "uid" : "32e30eff96345af",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552532167,
-      "stop" : 1644552540701,
-      "duration" : 8534
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should display the popup on the first pageload",
-    "uid" : "defdf237da38f9bb",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552532203,
-      "stop" : 1644552536646,
-      "duration" : 4443
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should wait for the element to appear",
-    "uid" : "18127756bb8c6cf9",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552532203,
-      "stop" : 1644552547924,
-      "duration" : 15721
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should wait for the element to appear",
-    "uid" : "29e0cb5d3114ec19",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552532600,
-      "stop" : 1644552546870,
-      "duration" : 14270
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should not display the popup on subsequent pageloads",
-    "uid" : "5b6bb1b065cefd0a",
+    "uid" : "db21ede0d48af68d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1644552536654,
-      "stop" : 1644552542052,
-      "duration" : 5398
+      "start" : 1644567792879,
+      "stop" : 1644567808975,
+      "duration" : 16096
     },
     "flaky" : false,
     "newFailed" : false,
@@ -101,15 +17,100 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should wait for the element to appear",
+    "uid" : "d44bee99035da057",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567811209,
+      "stop" : 1644567821518,
+      "duration" : 10309
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should wait for the element to appear",
+    "uid" : "16b8e740b8c157ac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567825094,
+      "stop" : 1644567835289,
+      "duration" : 10195
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should display the popup on the first pageload",
+    "uid" : "1e5608dc885b820f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567838915,
+      "stop" : 1644567843948,
+      "duration" : 5033
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should not display the popup on subsequent pageloads",
+    "uid" : "e3ef78223693f380",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567843949,
+      "stop" : 1644567845830,
+      "duration" : 1881
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "46b43616deaaf781",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567848146,
+      "stop" : 1644567852560,
+      "duration" : 4414
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "should listen on network events",
-    "uid" : "60d5ec0c9f8c6503",
+    "uid" : "63dd10f70acd7ac1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1644552545923,
-      "stop" : 1644552545923,
+      "start" : 1644567857378,
+      "stop" : 1644567857378,
       "duration" : 0
     },
     "flaky" : false,
@@ -118,16 +119,16 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "98.0.4758.80" ]
+    "parameters" : [ ]
   }, {
     "name" : "should verify image is present",
-    "uid" : "cfedfe6c42a96d5d",
+    "uid" : "9c83efad406db791",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1644552546609,
-      "stop" : 1644552552846,
-      "duration" : 6237
+      "start" : 1644567861973,
+      "stop" : 1644567877376,
+      "duration" : 15403
     },
     "flaky" : false,
     "newFailed" : false,
@@ -135,16 +136,16 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "should show 34 when we enter 34",
-    "uid" : "aea15fbc63dda009",
+    "uid" : "a7f0cbaca23f9f2f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644552549235,
-      "stop" : 1644552553505,
-      "duration" : 4270
+      "start" : 1644567880562,
+      "stop" : 1644567883851,
+      "duration" : 3289
     },
     "flaky" : false,
     "newFailed" : false,
@@ -152,16 +153,67 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
-    "name" : "should login, land on secure page, then go to floating_menus pages",
-    "uid" : "a31cc32c38c6f57d",
+    "name" : "should show 56 when we enter 5ty6",
+    "uid" : "911968a38d82cf15",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1644552552187,
-      "stop" : 1644552552224,
-      "duration" : 37
+      "start" : 1644567883852,
+      "stop" : 1644567884290,
+      "duration" : 438
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should allow decimals",
+    "uid" : "18bb98dff9401c95",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567884290,
+      "stop" : 1644567884975,
+      "duration" : 685
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should not allow any other special characters",
+    "uid" : "2b9dc280a717c091",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567884976,
+      "stop" : 1644567885397,
+      "duration" : 421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "should login, land on secure page, then go to floating_menus pages",
+    "uid" : "d61404edb78e0def",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644567898931,
+      "stop" : 1644567906364,
+      "duration" : 7433
     },
     "flaky" : false,
     "newFailed" : false,
@@ -169,67 +221,16 @@
     "newBroken" : false,
     "retriesCount" : 1,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should show 56 when we enter 5ty6",
-    "uid" : "cfff232e9f5f8f3f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552553509,
-      "stop" : 1644552554661,
-      "duration" : 1152
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should allow decimals",
-    "uid" : "3a629a61ea21dc26",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552554666,
-      "stop" : 1644552555796,
-      "duration" : 1130
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  }, {
-    "name" : "should not allow any other special characters",
-    "uid" : "3ac28e71afae3ace",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1644552555805,
-      "stop" : 1644552556915,
-      "duration" : 1110
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+    "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "should load the page and print a sentence",
-    "uid" : "40a2cde04905f1a9",
+    "uid" : "3775e5f037cb3f69",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1644552560129,
-      "stop" : 1644552563814,
-      "duration" : 3685
+      "start" : 1644567912841,
+      "stop" : 1644567926142,
+      "duration" : 13301
     },
     "flaky" : false,
     "newFailed" : false,
@@ -237,7 +238,6 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-  } ],
-  "name" : "behaviors"
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  } ]
 }

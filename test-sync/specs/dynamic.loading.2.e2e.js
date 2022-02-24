@@ -1,7 +1,7 @@
 const logger = require('@utils/logger');
-const LoginPage = require('../pageobjects/login.page');
-const SecurePage = require('../pageobjects/secure.page');
-const DynamicLoading2 = require('../pageobjects/dynamic.loading.2.page');
+const LoginPage = require('@/test-async/pageobjects/login.page');
+const SecurePage = require('@/test-async/pageobjects/secure.page');
+const DynamicLoading2 = require('@/test-async/pageobjects/dynamic.loading.2.page');
 
 
 describe('Tests on waiting for an element to appear - 2', () => {

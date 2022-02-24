@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@wdio/logger": "^7.16.0",
+    "@wdio/sync": "^7.16.15",
     "colors": "^1.4.0",
     "del": "^6.0.0"
   }

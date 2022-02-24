@@ -1,6 +1,6 @@
 const logger = require('@utils/logger');
-const LoginPage = require('../../test-async/pageobjects/login.page');
-const SecurePage = require('../../test-async/pageobjects/secure.page');
+const LoginPage = require('@/test-async/pageobjects/login.page');
+const SecurePage = require('@/test-async/pageobjects/secure.page');
 
 describe('My Login application', () => {
     it('should login with valid credentials', () => {

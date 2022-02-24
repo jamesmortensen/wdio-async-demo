@@ -1,92 +1,17 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
   "children" : [ {
     "name" : "Menu Button Tests",
     "children" : [ {
       "name" : "should count 5 buttons",
-      "uid" : "40dfd174bfd5963b",
+      "uid" : "db21ede0d48af68d",
       "parentUid" : "9f3f10ffa5b841cdfc04c4f797e13f0c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644552532132,
-        "stop" : 1644552542185,
-        "duration" : 10053
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-    }, {
-      "name" : "should verify image is present",
-      "uid" : "cfedfe6c42a96d5d",
-      "parentUid" : "9f3f10ffa5b841cdfc04c4f797e13f0c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644552546609,
-        "stop" : 1644552552846,
-        "duration" : 6237
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-    } ],
-    "uid" : "9f3f10ffa5b841cdfc04c4f797e13f0c"
-  }, {
-    "name" : "My Login application",
-    "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "32e30eff96345af",
-      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644552532167,
-        "stop" : 1644552540701,
-        "duration" : 8534
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-    } ],
-    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
-  }, {
-    "name" : "Entry Ad Tests",
-    "children" : [ {
-      "name" : "should display the popup on the first pageload",
-      "uid" : "defdf237da38f9bb",
-      "parentUid" : "37cf0320a3c724fe3fb0f61ee3857766",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644552532203,
-        "stop" : 1644552536646,
-        "duration" : 4443
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
-    }, {
-      "name" : "should not display the popup on subsequent pageloads",
-      "uid" : "5b6bb1b065cefd0a",
-      "parentUid" : "37cf0320a3c724fe3fb0f61ee3857766",
       "status" : "failed",
       "time" : {
-        "start" : 1644552536654,
-        "stop" : 1644552542052,
-        "duration" : 5398
+        "start" : 1644567792879,
+        "stop" : 1644567808975,
+        "duration" : 16096
       },
       "flaky" : false,
       "newFailed" : false,
@@ -94,20 +19,37 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "should verify image is present",
+      "uid" : "9c83efad406db791",
+      "parentUid" : "9f3f10ffa5b841cdfc04c4f797e13f0c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644567861973,
+        "stop" : 1644567877376,
+        "duration" : 15403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
-    "uid" : "37cf0320a3c724fe3fb0f61ee3857766"
+    "uid" : "9f3f10ffa5b841cdfc04c4f797e13f0c"
   }, {
     "name" : "Tests on waiting for an element to appear - 1",
     "children" : [ {
       "name" : "should wait for the element to appear",
-      "uid" : "18127756bb8c6cf9",
+      "uid" : "d44bee99035da057",
       "parentUid" : "ed94fd10b3f2f594dd6785cb85b14d90",
       "status" : "passed",
       "time" : {
-        "start" : 1644552532203,
-        "stop" : 1644552547924,
-        "duration" : 15721
+        "start" : 1644567811209,
+        "stop" : 1644567821518,
+        "duration" : 10309
       },
       "flaky" : false,
       "newFailed" : false,
@@ -115,20 +57,20 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
     "uid" : "ed94fd10b3f2f594dd6785cb85b14d90"
   }, {
     "name" : "Tests on waiting for an element to appear - 2",
     "children" : [ {
       "name" : "should wait for the element to appear",
-      "uid" : "29e0cb5d3114ec19",
+      "uid" : "16b8e740b8c157ac",
       "parentUid" : "6e1dfeb5c76a1c5d0c115281024bb640",
       "status" : "passed",
       "time" : {
-        "start" : 1644552532600,
-        "stop" : 1644552546870,
-        "duration" : 14270
+        "start" : 1644567825094,
+        "stop" : 1644567835289,
+        "duration" : 10195
       },
       "flaky" : false,
       "newFailed" : false,
@@ -136,19 +78,78 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
     "uid" : "6e1dfeb5c76a1c5d0c115281024bb640"
+  }, {
+    "name" : "Entry Ad Tests",
+    "children" : [ {
+      "name" : "should display the popup on the first pageload",
+      "uid" : "1e5608dc885b820f",
+      "parentUid" : "37cf0320a3c724fe3fb0f61ee3857766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644567838915,
+        "stop" : 1644567843948,
+        "duration" : 5033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "should not display the popup on subsequent pageloads",
+      "uid" : "e3ef78223693f380",
+      "parentUid" : "37cf0320a3c724fe3fb0f61ee3857766",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644567843949,
+        "stop" : 1644567845830,
+        "duration" : 1881
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "37cf0320a3c724fe3fb0f61ee3857766"
+  }, {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "46b43616deaaf781",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644567848146,
+        "stop" : 1644567852560,
+        "duration" : 4414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
   }, {
     "name" : "Event Listeners",
     "children" : [ {
       "name" : "should listen on network events",
-      "uid" : "60d5ec0c9f8c6503",
+      "uid" : "63dd10f70acd7ac1",
       "parentUid" : "e3f1a32f0ff4719d04c05bbea9d5c788",
       "status" : "skipped",
       "time" : {
-        "start" : 1644552545923,
-        "stop" : 1644552545923,
+        "start" : 1644567857378,
+        "stop" : 1644567857378,
         "duration" : 0
       },
       "flaky" : false,
@@ -157,20 +158,20 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "98.0.4758.80" ]
+      "parameters" : [ ]
     } ],
     "uid" : "e3f1a32f0ff4719d04c05bbea9d5c788"
   }, {
     "name" : "Test inputs page",
     "children" : [ {
       "name" : "should show 34 when we enter 34",
-      "uid" : "aea15fbc63dda009",
+      "uid" : "a7f0cbaca23f9f2f",
       "parentUid" : "c3828a656dd20e30125c8e3d4e1316d1",
       "status" : "passed",
       "time" : {
-        "start" : 1644552549235,
-        "stop" : 1644552553505,
-        "duration" : 4270
+        "start" : 1644567880562,
+        "stop" : 1644567883851,
+        "duration" : 3289
       },
       "flaky" : false,
       "newFailed" : false,
@@ -178,16 +179,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     }, {
       "name" : "should show 56 when we enter 5ty6",
-      "uid" : "cfff232e9f5f8f3f",
+      "uid" : "911968a38d82cf15",
       "parentUid" : "c3828a656dd20e30125c8e3d4e1316d1",
       "status" : "passed",
       "time" : {
-        "start" : 1644552553509,
-        "stop" : 1644552554661,
-        "duration" : 1152
+        "start" : 1644567883852,
+        "stop" : 1644567884290,
+        "duration" : 438
       },
       "flaky" : false,
       "newFailed" : false,
@@ -195,16 +196,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     }, {
       "name" : "should allow decimals",
-      "uid" : "3a629a61ea21dc26",
+      "uid" : "18bb98dff9401c95",
       "parentUid" : "c3828a656dd20e30125c8e3d4e1316d1",
       "status" : "passed",
       "time" : {
-        "start" : 1644552554666,
-        "stop" : 1644552555796,
-        "duration" : 1130
+        "start" : 1644567884290,
+        "stop" : 1644567884975,
+        "duration" : 685
       },
       "flaky" : false,
       "newFailed" : false,
@@ -212,16 +213,16 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     }, {
       "name" : "should not allow any other special characters",
-      "uid" : "3ac28e71afae3ace",
+      "uid" : "2b9dc280a717c091",
       "parentUid" : "c3828a656dd20e30125c8e3d4e1316d1",
       "status" : "passed",
       "time" : {
-        "start" : 1644552555805,
-        "stop" : 1644552556915,
-        "duration" : 1110
+        "start" : 1644567884976,
+        "stop" : 1644567885397,
+        "duration" : 421
       },
       "flaky" : false,
       "newFailed" : false,
@@ -229,20 +230,20 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
     "uid" : "c3828a656dd20e30125c8e3d4e1316d1"
   }, {
     "name" : "Navigation tests",
     "children" : [ {
       "name" : "should login, land on secure page, then go to floating_menus pages",
-      "uid" : "a31cc32c38c6f57d",
+      "uid" : "d61404edb78e0def",
       "parentUid" : "9bf131be5369d3b96f5b4fb6e0be9450",
       "status" : "passed",
       "time" : {
-        "start" : 1644552552187,
-        "stop" : 1644552552224,
-        "duration" : 37
+        "start" : 1644567898931,
+        "stop" : 1644567906364,
+        "duration" : 7433
       },
       "flaky" : false,
       "newFailed" : false,
@@ -250,20 +251,20 @@
       "newBroken" : false,
       "retriesCount" : 1,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
     "uid" : "9bf131be5369d3b96f5b4fb6e0be9450"
   }, {
     "name" : "Typos page",
     "children" : [ {
       "name" : "should load the page and print a sentence",
-      "uid" : "40a2cde04905f1a9",
+      "uid" : "3775e5f037cb3f69",
       "parentUid" : "01f709e029fc1e021c1f451cac8d6fb2",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1644552560129,
-        "stop" : 1644552563814,
-        "duration" : 3685
+        "start" : 1644567912841,
+        "stop" : 1644567926142,
+        "duration" : 13301
       },
       "flaky" : false,
       "newFailed" : false,
@@ -271,9 +272,8 @@
       "newBroken" : false,
       "retriesCount" : 0,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+      "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
     "uid" : "01f709e029fc1e021c1f451cac8d6fb2"
-  } ],
-  "name" : "suites"
+  } ]
 }

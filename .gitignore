@@ -4,4 +4,5 @@ temp/
 wdio.*-chrome-cloud.conf.js
 pnpm-lock.yaml
 _wdio.*
-
+allure-report
+allure-results

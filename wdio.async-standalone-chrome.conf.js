@@ -1,5 +1,5 @@
 require('./module-aliases');
-const video = require('wdio-video-reporter');
+//const video = require('wdio-video-reporter');
 const logger = require('./utils/logger');
 const AllureEnvironment = require('./services/wdio-allure-environment-service');
 
@@ -29,7 +29,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test-async/specs/**/*.js'
+        './test-sync/specs/**/*.js'
     ],
     //sync: true,
     // Patterns to exclude.
@@ -143,10 +143,10 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [
-        [video, {
-            saveAllVideos: false,       // If true, also saves videos for successful test cases
-            videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        }],
+        // [video, {
+        //     saveAllVideos: false,       // If true, also saves videos for successful test cases
+        //     videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        // }],
         ['allure', {
             outputDir: 'allure-results',
             disableWebdriverStepsReporting: true,

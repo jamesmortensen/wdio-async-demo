@@ -29,9 +29,10 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test-async/specs/**/*.js'
+        './test-sync/specs/**/*.js'
+        //'./test-async/specs/**/*.js'
     ],
-    //sync: true,
+    // sync: false,
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -52,7 +53,7 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -63,9 +64,9 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        maxInstances: 1,
         //
-        browserName: 'chrome',
+        browserName: 'firefox',
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -79,7 +80,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'warn',
     //
     // Set specific log levels per logger
     // loggers:
@@ -94,6 +95,11 @@ exports.config = {
     //     webdriver: 'info',
     //     '@wdio/applitools-service': 'info'
     // },
+    /**
+     * Level of logging verbosity for the logger statements inside your spec files, 
+     * page objects, and step files: // trace|debug|log|info|warn|error
+     */
+    specLogLevel: 'debug',
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
@@ -103,7 +109,8 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://the-internet.herokuapp.com',
+    baseUrl: typeof (process.env.BASEURL) === 'undefined' ? 'https://the-internet.herokuapp.com' : process.env.BASEURL,
+    //baseUrl: 'https://the-internet.herokuapp.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -119,7 +126,8 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
+    //services: ['chromedriver', 'eslinter'],
+    services: [], //[AllureEnvironment]],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -220,6 +228,19 @@ exports.config = {
         global.expectChai = require('chai').expect;
         require('./utils/check-for-slow-mode.js');
         logger.info('We are in mode = ' + (isLive() ? 'live' : 'not live'));
+        browser.addCommand('waitUntilVisibleThenGetText', function () {
+            //this.waitForExist({ timeoutMsg: 'Cannot get text. Element did not become visible before the timeout of ' + browser.config.waitforTimeout });
+            this.waitForDisplayed({ timeoutMsg: 'Cannot get text. Element did not become visible before the timeout of ' + browser.config.waitforTimeout });
+            return this.getText();
+        }, true);
+        browser.addCommand('getTextOnlyIfVisible', function () {
+            //this.waitForExist({ timeoutMsg: 'Cannot get text. Element did not become visible before the timeout of ' + browser.config.waitforTimeout });
+            if (this.isDisplayed())
+                return this.getText();
+            else
+                throw new Error('Cannot get text of element because element is not visible.');
+        }, true);
+
     },
     /**
      * Runs before a WebdriverIO command gets executed.

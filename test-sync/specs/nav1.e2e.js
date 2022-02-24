@@ -1,7 +1,7 @@
 const logger = require('@utils/logger');
 
-const loginPage = require("../pageobjects/login.page");
-const securePage = require("../pageobjects/secure.page");
+const loginPage = require("@/test-async/pageobjects/login.page");
+const securePage = require("@/test-async/pageobjects/secure.page");
 
 
 describe('Navigation tests', () => {

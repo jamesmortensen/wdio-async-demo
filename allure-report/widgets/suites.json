@@ -1,15 +1,26 @@
 {
   "total" : 9,
   "items" : [ {
-    "uid" : "37cf0320a3c724fe3fb0f61ee3857766",
-    "name" : "Entry Ad Tests",
+    "uid" : "9f3f10ffa5b841cdfc04c4f797e13f0c",
+    "name" : "Menu Button Tests",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "01f709e029fc1e021c1f451cac8d6fb2",
+    "name" : "Typos page",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   }, {
     "uid" : "c3828a656dd20e30125c8e3d4e1316d1",
@@ -23,8 +34,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "9f3f10ffa5b841cdfc04c4f797e13f0c",
-    "name" : "Menu Button Tests",
+    "uid" : "37cf0320a3c724fe3fb0f61ee3857766",
+    "name" : "Entry Ad Tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -32,17 +43,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
-    "name" : "My Login application",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   }, {
     "uid" : "ed94fd10b3f2f594dd6785cb85b14d90",
@@ -67,8 +67,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "9bf131be5369d3b96f5b4fb6e0be9450",
-    "name" : "Navigation tests",
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
+    "name" : "My Login application",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -78,8 +78,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "01f709e029fc1e021c1f451cac8d6fb2",
-    "name" : "Typos page",
+    "uid" : "9bf131be5369d3b96f5b4fb6e0be9450",
+    "name" : "Navigation tests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -1,7 +1,7 @@
 const logger = require('@utils/logger');
-const LoginPage = require('../pageobjects/login.page');
-const SecurePage = require('../pageobjects/secure.page');
-const GalleryPage = require('../pageobjects/gallery.page');
+const LoginPage = require('@/test-async/pageobjects/login.page');
+const SecurePage = require('@/test-async/pageobjects/secure.page');
+const GalleryPage = require('@/test-async/pageobjects/gallery.page');
 const galleryPage = new GalleryPage();
 
 describe('Menu Button Tests', () => {

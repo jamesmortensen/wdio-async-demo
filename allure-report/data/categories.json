@@ -1,18 +1,19 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "expected true to be false      \n                      actual expected\n                      \n                      truefalse\n                      ",
+      "name" : "Expect $(`a[href=\"/gallery/\"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
       "children" : [ {
-        "name" : "should not display the popup on subsequent pageloads",
-        "uid" : "5b6bb1b065cefd0a",
-        "parentUid" : "d7943736dce489f35cad5ba30af20f03",
+        "name" : "should count 5 buttons",
+        "uid" : "db21ede0d48af68d",
+        "parentUid" : "ab79dc8f0be87172d45a1ba0f6f33103",
         "status" : "failed",
         "time" : {
-          "start" : 1644552536654,
-          "stop" : 1644552542052,
-          "duration" : 5398
+          "start" : 1644567792879,
+          "stop" : 1644567808975,
+          "duration" : 16096
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,11 +21,52 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "chrome-98.0.4758.80", "98.0.4758.80" ]
+        "parameters" : [ "chrome-97.0.4692.71" ]
       } ],
-      "uid" : "d7943736dce489f35cad5ba30af20f03"
+      "uid" : "ab79dc8f0be87172d45a1ba0f6f33103"
+    }, {
+      "name" : "Expect $(`#content > div > img:nth-child(3)`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+      "children" : [ {
+        "name" : "should verify image is present",
+        "uid" : "9c83efad406db791",
+        "parentUid" : "088b89d85f45c847d429fe2d991ac1ec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644567861973,
+          "stop" : 1644567877376,
+          "duration" : 15403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-97.0.4692.71" ]
+      } ],
+      "uid" : "088b89d85f45c847d429fe2d991ac1ec"
+    }, {
+      "name" : "Expect $(`#content > div > p:nth-child(3)`) to have text\n                \n                Expected: \"Sometimes you'll see a typo, other times you won't.\"\n                Received: \"Sometimes you'll see a typo, other times you won,t.\"",
+      "children" : [ {
+        "name" : "should load the page and print a sentence",
+        "uid" : "3775e5f037cb3f69",
+        "parentUid" : "5a1e89464e922021f13cf12dd7a22163",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644567912841,
+          "stop" : 1644567926142,
+          "duration" : 13301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-97.0.4692.71" ]
+      } ],
+      "uid" : "5a1e89464e922021f13cf12dd7a22163"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ],
-  "name" : "categories"
+  } ]
 }
