@@ -48,7 +48,8 @@ config.override = {
     sync: true,
     logLevel: 'warn',
     //services: ['docker', 'eslinter'],
-    services: ['docker', 'eslinter', [require('./services/wdio-allure-environment-service')]],
+    //services: ['docker', 'eslinter', [require('./services/wdio-allure-environment-service')]],
+    services: ['docker'],
     dockerLogs: './',
     dockerOptions: {
         image: DOCKER_IMAGE,
@@ -59,7 +60,7 @@ config.override = {
             startDelay: 2000           // default 0ms
         },
         options: {
-            p: [SELENIUM_SERVER_PORT + ':4444', '5900:5900'],
+            p: [SELENIUM_SERVER_PORT + ':4444', '5900:5900', '7900:7900'],
             shmSize: '3g',
             v: [process.cwd() + ':' + process.cwd() + ':ro']
         }
@@ -81,9 +82,8 @@ function getDockerImageArgument(argsArr) {
     const os = require('os');
     return argsValue(argsArr, '-i', '--image',
         !os.cpus()[0].model.includes('Apple M1')
-            ? 'selenium/standalone-chrome-debug'
-            : 'local-seleniarm/standalone-chromium:4.0.0-beta-2-20210622');
-    //return argsValue(argsArr, '-i', '--image', 'selenium/standalone-chrome-debug');
+            ? 'selenium/standalone-chrome:latest'
+            : 'seleniarm/standalone-chromium:latest');
 }
 
 
